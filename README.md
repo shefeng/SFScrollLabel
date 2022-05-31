@@ -20,6 +20,27 @@ it, simply add the following line to your Podfile:
 pod 'SFScrollLabel'
 ```
 
+##定义:
+```
+SFScrollLabel *scrollLabel = [[SFScrollLabel alloc] init];
+scrollLabel.frame = CGRectMake(50, 300, 200, 20);
+```
+
+##配置:
+```
+[scrollLabel config:@"向左滚动向左滚动向左滚动向左滚动向左滚动向左滚动" textFont:[UIFont systemFontOfSize:16] textColor:[UIColor redColor] scrollDirection:SFScrollLabelDirectionLeft scrollSpeed:30];
+```
+
+##开始滚动:
+```
+[scrollLabel startScroll];
+```
+
+##停止滚动:
+```
+[scrollLabel stopScroll];
+```
+
 ## Author
 
 shefeng, shefeng@aliyun.com
