@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - SFScrollLabel (0.0.1):
+    - Masonry
+
+DEPENDENCIES:
+  - SFScrollLabel (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  SFScrollLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SFScrollLabel: c889202dc4d47049345af6759f6b23a9a52e5ca8
+
+PODFILE CHECKSUM: cec11f12142a15e120c54249a869441ac22a5bcd
+
+COCOAPODS: 1.10.1

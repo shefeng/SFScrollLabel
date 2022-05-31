@@ -1,0 +1,6 @@
+framework module SFScrollLabel {
+  umbrella header "SFScrollLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
